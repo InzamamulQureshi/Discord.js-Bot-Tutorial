@@ -19,7 +19,7 @@ modules.forEach(module => {
       console.log(`[ Command ${f} Loaded! ]`)
       let command = require(`./commands/${module}/${f}`)
       client.commands.set(command.help.name, command)
-      client.aliases.forEach(alias => {
+      command.help.aliases.forEach(alias => {
         client.aliases.set(alias, command.help.name)
       })
     })
