@@ -1,6 +1,7 @@
 module.exports = async(client, message) => {
   
-  let prefix = client.config.prefix
+ let prefix = await client.db.get(`prefix_${message.guild.id}`)
+ if(prefix === null) prefix = client.config.prefix
   
   if(!message.guild || message.author.bot) return;
   
