@@ -1,4 +1,4 @@
-# Discord.js-Bot-Tutorial
+<h1 align="center"> Discord.js-Bot-Tutorial </h1>
 
 Developer - Inzamamul Qureshi#0833
 
