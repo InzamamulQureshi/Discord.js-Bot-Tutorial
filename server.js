@@ -2,6 +2,8 @@ const discord = require("discord.js")
 const client = new discord.Client()
 client.config = require ("./config.json")
 const fs = require("fs")
+const { Database } = require("quickmongo")
+client.db = new Database("cluster address here")
 
 let modules = ["utility"] // add , "new category" if you want to add more categories
 
