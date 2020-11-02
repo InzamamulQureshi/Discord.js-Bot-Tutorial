@@ -15,4 +15,4 @@ module.exports = async(client, message) => {
   if(command) command.run(client, message, args).catch(console.log)
   if(!command) return message.channel.send(`${command} command not found!`)
   
-} //lets test it.
+} 
