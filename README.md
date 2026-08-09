@@ -2,7 +2,7 @@
 
 <h2 align="center">⚠️This project is outdated and will no longer be receiving updates </h2>
 
-Developer - Inzamamul Qureshi#0833
+Developer - @inzamamulqureshi
 
 **What is this project about ?**
 
