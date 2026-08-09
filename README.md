@@ -1,5 +1,7 @@
 <h1 align="center"> Discord.js-Bot-Tutorial </h1>
 
+<h2 align="center">⚠️This project is outdated and will no longer be receiving updates </h2>
+
 Developer - Inzamamul Qureshi#0833
 
 **What is this project about ?**
